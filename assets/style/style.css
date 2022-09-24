@@ -1,3 +1,24 @@
+@font-face {
+    font-family: satoshi-medium;
+    src: url(/assets/fonts/Satoshi-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: satoshi-light;
+    src: url(/assets/fonts/Satoshi-Light.ttf);
+}
+
+@font-face {
+    font-family: satoshi-regular;
+    src: url(/assets/fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: satoshi-black;
+    src: url(/assets/fonts/Satoshi-Black.ttf);
+}
+
+
 :root {
     --box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
     --color-white: white;
@@ -8,9 +29,15 @@
 
 }
 
+* {
+    margin: 0;
+
+
+}
+
 body {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -20,13 +47,14 @@ body {
 }
 
 .logo-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: white;
 
 }
 
 .logo {
+    padding: 20px 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -34,7 +62,7 @@ body {
 }
 
 .text {
-    width: 90%;
+    width: 100%;
 }
 
 .logo-img {
@@ -42,8 +70,14 @@ body {
 
 }
 
+.logo-text {
+    font-size: 1.35rem;
+    color: #47474a;
+    letter-spacing: 2px;
+}
+
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -55,13 +89,19 @@ body {
     width: 100%;
 }
 
+.content-heading {
+    width: 100%;
+
+
+}
+
 .content-box>.content {
     width: 100%;
     font-size: 4.8rem;
     font-weight: 700;
     color: #232324;
-    margin: 0;
     /* line-height: 1.3; */
+    font-family: satoshi-light;
 }
 
 .content-box>.paragraph {
@@ -70,11 +110,11 @@ body {
     font-size: 15px;
     line-height: 1.6;
     margin-top: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: satoshi-light;
 }
 
 .box-container {
-    margin-top: 50px;
+    margin-top: 60px;
     width: 100%;
     display: flex;
     column-gap: 10px;
@@ -96,7 +136,7 @@ body {
 }
 
 .flex {
-    padding: 0 10px;
+    padding: 15px 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -152,7 +192,7 @@ body {
 }
 
 .container-flex {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
 }
@@ -180,7 +220,7 @@ body {
 }
 
 .headline {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-transform: capitalize;
     font-size: 30px;
@@ -189,7 +229,7 @@ body {
 }
 
 .work {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .content-text-box {
@@ -200,33 +240,36 @@ body {
 .img-flex-container {
 
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
-    /* border: 1px solid gold; */
+
 }
 
 .wallet-container {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin-left: 30px;
 }
 
 .wallet {
-    width: 50%;
-    
+    width: 40%;
+
 }
-.wallet1{
+
+.wallet1 {
     display: none;
 }
 
 .line {
     position: absolute;
-    top: 15px;
+    top: 30px;
+    left: -20px;
 }
 
 .steps {
+    padding: 20px;
     width: 100%;
     position: relative;
 
@@ -234,43 +277,248 @@ body {
 
 .step-cont {
     width: 100%;
-    padding: 0 8rem;
+    margin: 0 5rem;
     padding-top: 6rem;
 
 }
-.step{
-   color: var(--color-dark-white); 
-   font-size: 17px;
-   text-transform: uppercase;
+
+.step {
+    font-family: satoshi-black;
+    color: var(--color-dark-white);
+    font-size: 17px;
+    text-transform: uppercase;
 }
-.account{
+
+.account {
     color: var(--color-white);
     font-size: 1.2rem;
     text-transform: capitalize;
 }
-.login{
+
+.login {
     text-transform: capitalize;
     font-size: 15px;
 }
-.section-container{
-    width: 80%;
+
+.section-container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.my-section {
+    margin-top: 30px;
+
+}
+
+.flex-box {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+    color: var(--color-pink);
+
+}
+
+.box {
+    width: 45%;
+}
+
+.all {
+    width: 100%;
+}
+
+.why {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 2.85rem;
+    color: var(--color-pink);
+}
+
+.choose {
+    color: var(--color-pink);
+}
+
+.icon {
+    width: 50%;
+
+}
+
+.icon>.icon-img {
+    width: 20%;
+}
+
+.pricing {
+    padding: 10px 0;
+    font-size: 1.55rem;
+    font-weight: 800;
+    font-family: satoshi-regular;
+}
+
+.class {
+    font-family: satoshi-light;
+
+}
+
+.send {
+    width: 100%;
+    line-height: 1.5;
+    font-family: satoshi-light;
+}
+.team-section{
+    margin: 30px 0;
+}
+.team-container {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.team-box {
+    width: 90%;
     margin: 0 auto;
 }
-.my-section{
-    margin-top: 30px;
-}
-.flex-box{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-column-gap: 50px;
-row-gap: 20px;
-}
-.box{
-    width: 40%;
-    border: 1px solid green;
-    height: 100px;
-}
-.all{
+
+.team-header {
     width: 100%;
+    color: var(--color-pink);
+    padding: 30px 0;
+}
+
+.team-header>.our-team {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.cards {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.card {
+    width: 25%;
+    border: 3px solid transparent;
+}
+
+.profile {
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    margin-top: 1rem;
+    background-color: #dad6d68c;
+    border-radius: 20px;
+    padding: 1rem;
+    color: #2b2b2b;
+}
+
+.name-profile {
+    font-size: 1.17em;
+    text-transform: capitalize;
+}
+
+.team-header>.family {
+    text-transform: capitalize;
+}
+
+.freq {
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.freq-ask {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+    color: var(--color-light-dark);
+}
+
+.faq-card {
+    width: 650px;
+    border: 1px solid black;
+    /* height:50px; */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    width: 65%;
+    display: block;
+
+
+}
+
+.questions-container {
+    width: 95%;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-container>.question {
+    width: 95%;
+
+}
+
+.questions-container>.plus {
+    font-size: 18px;
+}
+
+
+.logo-social {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.centre {
+    width: 100%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.sendna-logo {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.social-icon {
+    width: 50%;
+
+}
+
+.social-icon>.item-menu {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+.list-item>.fa-brands {
+    color: white;
+}
+
+.footer{
+    background-color: yellow;
+  
+    width: 100%;
+    padding: 100px 0;
+    margin: 0;
+    padding: 0;
 }
