@@ -1,0 +1,276 @@
+:root {
+    --box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    --color-white: white;
+    --color-pink: #5328e0;
+    --color-light-dark: #2b2b2b;
+    --color-dark: black;
+    --color-dark-white: #b7b6ba;
+
+}
+
+body {
+    margin: 0;
+    /* padding: 0; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container {
+    width: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.logo-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.text {
+    width: 90%;
+}
+
+.logo-img {
+    width: 60%;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-section {
+    margin-top: 50px;
+}
+
+.content-box {
+    width: 100%;
+}
+
+.content-box>.content {
+    width: 100%;
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #232324;
+    margin: 0;
+    /* line-height: 1.3; */
+}
+
+.content-box>.paragraph {
+    width: 70%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+
+
+}
+
+.btn {
+    width: fit-content;
+    border: 1px solid var(--color-light-dark);
+    display: flex;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.flex {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-transform: capitalize;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+.download {
+    font-size: 16px;
+}
+
+.egg-bg {
+    margin: 40px 0;
+    width: 100%;
+    background-image: url(/assets/images/grid.png);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mouse-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.mouse-text {
+    width: 10%;
+    text-align: center;
+}
+
+.mouse-cont {
+    width: 100%;
+    text-align: center;
+}
+
+.mouse {
+    width: 15%;
+}
+
+.line-bg {
+    background-color: var(--color-pink);
+    position: relative;
+    width: 100%;
+
+
+}
+
+.container-flex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-flex {
+    width: 80%;
+}
+
+
+.circle {
+    width: 10%;
+    /* border: 1px solid red; */
+}
+
+.white-bg {
+    background-color: var(--color-white);
+}
+
+.zero {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+    /* margin-bottom: 10px; */
+}
+
+.headline {
+    width: 80%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: var(--color-white);
+
+}
+
+.work {
+    padding: 40px 0;
+}
+
+.content-text-box {
+    width: 45%;
+    /* border: 1px solid yellow; */
+}
+
+.img-flex-container {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 1px solid gold; */
+}
+
+.wallet-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: end;
+}
+
+.wallet {
+    width: 50%;
+    
+}
+.wallet1{
+    display: none;
+}
+
+.line {
+    position: absolute;
+    top: 15px;
+}
+
+.steps {
+    width: 100%;
+    position: relative;
+
+}
+
+.step-cont {
+    width: 100%;
+    padding: 0 8rem;
+    padding-top: 6rem;
+
+}
+.step{
+   color: var(--color-dark-white); 
+   font-size: 17px;
+   text-transform: uppercase;
+}
+.account{
+    color: var(--color-white);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.login{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.section-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.my-section{
+    margin-top: 30px;
+}
+.flex-box{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+column-gap: 50px;
+row-gap: 20px;
+}
+.box{
+    width: 40%;
+    border: 1px solid green;
+    height: 100px;
+}
+.all{
+    width: 100%;
+}
