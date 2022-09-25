@@ -319,8 +319,8 @@ body {
 }
 
 .section-container {
-    width: 100%;
-    /* margin: 0 auto; */
+    width: 90%;
+    margin: 0 auto;
 
 }
 
@@ -576,12 +576,12 @@ footer {
 }
 
 .logo-nav-footer>.img-container {
-    width: 40%;
+    width: 20%;
     /* margin-left: 30px; */
 }
 
 .img-container>.footer-img {
-    width: 100%;
+    width: 50%;
     height: 30px;
 }
 
@@ -844,8 +844,8 @@ ul {
     }
 
     .card {
-        width: 100%;
-
+        width: 90%;
+margin: 0 auto;
         border: none;
     }
 
@@ -862,7 +862,7 @@ ul {
     .profile-info {
         width: 100%;
         text-align: center;
-
+        margin-bottom: 20px;
     }
 
     .freq {
@@ -947,13 +947,16 @@ ul {
         justify-content: center;
         margin: 0;
     }
-.content-box{
-    width: 100%;
-}
-.content-box>.content{
-    width: 100%;
-    font-size: 3rem;
-}
+
+    .content-box {
+        width: 100%;
+    }
+
+    .content-box>.content {
+        width: 100%;
+        font-size: 3rem;
+    }
+
     .privacy-policy {
         width: 100%;
         margin: 0;
@@ -962,7 +965,8 @@ ul {
     .border {
         padding-bottom: 10px;
     }
-/* .section-container{width: 100%;} */
+
+    /* .section-container{width: 100%;} */
     .privacy-policy>.privacy-policy-menu {
         display: block;
         text-align: center;
@@ -983,9 +987,10 @@ ul {
         width: 100%;
     }
 
-.line-section{background-color:var(--color-pink);
-    width: 100%;
-}
+    .line-section {
+        background-color: var(--color-pink);
+        width: 100%;
+    }
 
 
 
