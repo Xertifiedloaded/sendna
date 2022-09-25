@@ -182,6 +182,7 @@ body {
 }
 
 .line-section {
+    width: 100%;
     background-color: var(--color-pink);
 }
 
@@ -318,8 +319,8 @@ body {
 }
 
 .section-container {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
 
 }
 
@@ -946,7 +947,13 @@ ul {
         justify-content: center;
         margin: 0;
     }
-
+.content-box{
+    width: 100%;
+}
+.content-box>.content{
+    width: 100%;
+    font-size: 3rem;
+}
     .privacy-policy {
         width: 100%;
         margin: 0;
@@ -955,7 +962,7 @@ ul {
     .border {
         padding-bottom: 10px;
     }
-
+/* .section-container{width: 100%;} */
     .privacy-policy>.privacy-policy-menu {
         display: block;
         text-align: center;
@@ -976,7 +983,9 @@ ul {
         width: 100%;
     }
 
-
+.line-section{background-color:var(--color-pink);
+    width: 100%;
+}
 
 
 
