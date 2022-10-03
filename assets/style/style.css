@@ -886,7 +886,8 @@ margin: 0 auto;
     }
 
     .faq-container {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .faq {
@@ -939,11 +940,11 @@ margin: 0 auto;
     }
 
     .logo-nav-footer>.img-container {
-        width: 15%;
+        width: 20%;
     }
 
     .img-container>.footer-img {
-        width: 20%;
+        width: 100%;
     }
 
     .social-icon {

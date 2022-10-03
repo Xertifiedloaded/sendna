@@ -29,7 +29,7 @@ function slide() {
     if (i > length - 1) {
         i = 0
     }
-   
+    
     sliderNew.src = images[i]
     i++
     setTimeout("slide()", 3000)
