@@ -485,13 +485,28 @@ body {
 
 
 }
-
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
 .questions-container {
     width: 95%;
     padding: 20px 0;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.faq-hide{
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.minus{
+    display: none;
 }
 
 .questions-container>.question {
