@@ -175,7 +175,12 @@ body {
     width: 10%;
     text-align: center;
 }
-
+.plus-hide{
+    display: none;
+}
+.plus-show{
+    display: block;
+}
 .mouse-cont {
     width: 100%;
     text-align: center;
