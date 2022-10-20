@@ -8,9 +8,9 @@ for (i = 0; i < iconFaqs.length; i++) {
     const element = iconFaqs[i]
     let plus = element.children[0].children[1]
     let faqHide = element.children[1]
-    // console.log(element.children[1])
+    console.log(element.children[1])
     // console.log(element.children[0].children[1])
-    plus.addEventListener("click", showDropDown)
+    plus.addEventListener("click", showDropDown)~
 
     function showDropDown() {
         if (isActive == false) {
